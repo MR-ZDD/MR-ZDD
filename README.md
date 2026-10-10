@@ -1,4 +1,4 @@
-# ▓▒░ Master ZeroDayDev Engine v3.0 ░▒▓
+# ▓▒░ Master ZeroDayDev Engine v2.0 ░▒▓
 
 This is an advanced terminal automation framework featuring a dynamic random logo generator and a secure interactive control console.
 
@@ -8,10 +8,19 @@ This is an advanced terminal automation framework featuring a dynamic random log
 
 Run this **single command** directly in your Kali Linux terminal. The tool will be installed seamlessly into your system path:
 
+### Option 1: Quick 1-Command Installatio
+
 ```bash
 curl -sSL "https://githubusercontent.com" -o /tmp/zerodaydev && sudo mv /tmp/zerodaydev /usr/local/bin/zerodaydev && sudo chmod +x /usr/local/bin/zerodaydev && echo -e "\n\e[1;32m[+] ZeroDayDev Installed Successfully! Just type 'zerodaydev' anywhere.\e[0m"
 ```
 
+### Option 2: Manual Installation via Git Clone
+```bash
+git clone https://github.com/mrbrajeshdabi/zerodaydev
+cd zerodaydev
+chmod +x zerodaydev
+./zerodaydev
+```
 ---
 
 ## 💻 How to Use
