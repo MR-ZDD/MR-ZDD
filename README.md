@@ -1,52 +1,102 @@
-# ▓▒░ Master ZeroDayDev Engine v2.0 ░▒▓
+# ☠️ MR-ZDD // 💣 Advanced Cryptographic C2 Agent Vector 💣
 
-This is an advanced terminal automation framework featuring a dynamic random logo generator and a secure interactive control console.
+__________________________________
+       [ [+] STAGE 1: INITIALIZATION      ]
+       [ [+] STAGE 2: SYSTEM CHECK        ]
+       [ [+] STAGE 3: ZER0DAYDEV ACTIVE   ]
+       [ [+] ARE YOU READY HACKERS !      ]
+       [_______________________________ __]
+                   \   ^__^
+                    \  (oo)\_______
+                       (__)\       )\/\
+                           ||----w |
+                           ||     ||
+    :: BLACK-BOX TERMINAL CONSOLE ::
+__________________________________
+
+🚨 WARNING: CRITICAL MALWARE INJECTION FRAMEWORK NOTICE
+> **[!] SEC-OPS FIREWALL ALERT: READ BEFORE DEPLOYING ANY BINARY INTERFACE LAYER.**
+
+▟████████████████████████████████████████████████████████████▙
+▕  ⚠️  CRITICAL OPERATIONAL SECURITY WARNING & DISCLAIMER  ⚠️  ▏
+▜████████████████████████████████████████████████████████████▛
+
+### 🚨 LEGAL & OPERATIONAL WARNING
+This framework (`MR-ZDD`) is engineered exclusively for **Authorized Security Audits (Testing with explicit permission)**, **Educational Purposes (Learning and research)**, and **Cyber Threat Simulations (Defense mechanism practice)**.
+
+### 🛑 END-USER LIABILITY
+* **🚫 No Unauthorized Use:** Utilizing this tool on any network, server, or computer system without a valid, explicit written mutual authorization is 100% illegal.
+* **💀 Total Responsibility:** If you deploy this framework for any unauthorized operations, system disruptions, or data extraction—**you (the user) assume 100% full liability and responsibility for all consequences.**
+* **🛡️ Developer Immunity:** The developers and maintainers **(@zerodaydev / MR-ZDD Maintainers)** maintain a stance of absolute zero liability. We accept no accountability for any actions taken, system damage, or legal disputes resulting from the use of this software.
 
 ---
 
-## 🚀 How to Install
+## ⚡ CORE HUD ARCHITECTURE GRID
 
-Run this **single command** directly in your Kali Linux terminal. The tool will be installed seamlessly into your system path:
+| 🛠️ Component | 🔬 Layer Mechanics | 🟢 Telemetry State |
+| :--- | :--- | :--- |
+| **Payload Engine** | Native Ingress Mapping | `STABLE` 🔥 |
+| **XOR Obfuscator** | Dynamic 8-Bit Matrix Splitting | `ENCRYPTED` 🔐 |
+| **Network Fabric** | Local Sockets / Cloudflare Tunnels | `ISOLATED` 🌐 |
+| **Controller Loop** | Dynamic Multithreaded Python C2 Interface | `ACTIVE` 💀 |
 
-### Option 1: Quick 1-Command Installatio
-
-```bash
-curl -sSL "https://githubusercontent.com" -o /tmp/zerodaydev && sudo mv /tmp/zerodaydev /usr/local/bin/zerodaydev && sudo chmod +x /usr/local/bin/zerodaydev && echo -e "\n\e[1;32m[+] ZeroDayDev Installed Successfully! Just type 'zerodaydev' anywhere.\e[0m"
-```
-
-### Option 2: Manual Installation via Git Clone
-```bash
-git clone https://github.com/mrbrajeshdabi/zerodaydev
-cd zerodaydev
-chmod +x zerodaydev
-./zerodaydev
-```
 ---
 
-## 💻 How to Use
+## 💎 CORE FEATURES
 
-### 1. Launching the Tool
-Once installed, open a fresh terminal, type the following command anywhere, and press Enter:
+* **🎛️ Dynamic XOR Stream Obfuscation:** The loader engine features an automated dynamic `AWK` pipeline that sanitizes and cryptographically masks payload streams through randomized byte shift matrices.
+* **🌐 Dual Routing Mesh:** Supports instant deployment across zero-configuration local network scopes via **LAN Mode (Local IP)** or encrypted operational edge mappings via **Cloudflare Tunnels (WAN Mode)**.
+* **⚡ Zero-Leak Signal Lifespan:** Integrated multi-layered socket handlers catch local terminal interruptions (`Ctrl+C`) instantly, automatically purging running cloudflared daemons to keep the host environment pristine.
+* **🧬 Multi-Session Hub:** Spawns asynchronous Python management threads capable of monitoring, interacting with, or backgrounding multiple target reverse sessions concurrently from a centralized menu.
+
+---
+
+## 🛠️ INSTALLATION & RUNTIME FLOW
+
+### 1. 📦 Prerequisites
+Ensure your operational environment houses the required toolsets before firing up the framework:
 ```bash
-zerodaydev
+sudo apt update && sudo apt install xxd cloudflared python3 iconv -y
 ```
 
-### 2. Generating the Payload
-* As soon as the tool starts, it will prompt you for your **MAGIC IP** (such as your Ngrok domain or local IP) and an output **Payload Name**.
-* It will automatically generate a fully obfuscated `.vbs` execution stub and save it in your current working directory.
-* It will then ask whether you want to spin up the **Tactical Control Console (Listener)** immediately (`y/n`).
+### 2. 🧱 Direct Install via .DEB Package
+You can download the pre-compiled standalone **`.deb`** application bundle directly from the **Releases** section of this repository and deploy it using the following commands:
+```bash
+# Install your downloaded package
+sudo dpkg -i mr-zdd-pkg.deb
 
-### 3. Tactical Control Console Commands
-Once a connection handshake is established with the target machine, you can run the following interactive instructions inside the custom prompt (`zerodaydev-ops$`):
+IF ERROR
+sudo apt install ./mr-zdd-pkg.deb
 
-* `help` ➔ Displays the operational settings menu and list of commands.
-* `sysinfo` ➔ Profiles target metrics including the current username, hostname, and active network interfaces.
-* `screenshot` ➔ Triggers a quiet desktop screen state capture on the target machine.
-* `camera` ➔ Initiates native hardware identification and triggers automated camera capture routines.
-* `mic` ➔ Maps the destination audio channels to record from the primary microphone hardware.
-* `notepad` ➔ Spawns a clean instance of the standard Notepad text editor on the destination screen.
-* `type <message>` ➔ Launches a text instance and automatically types out your specified message character-by-character.
-* `chat <message>` ➔ Dispatches a single-direction operational alert dialog box onto the target display.
-* `talk` ➔ Instantiates a two-way graphic prompt box to exchange text messages back and forth with the console operator.
-* `play <URL>` ➔ Launches and plays web presentations or multimedia streaming sources directly on the destination machine.
-* `kill` ➔ Safely terminates the network session stream and tears down background listener configurations.
+# Fix missing dependencies if any errors pop up
+sudo apt-get install -f -y
+```
+
+### 3. ⚡ Direct Execution
+Once the installation is complete, there is no need to navigate to the script's directory or invoke standard interpreters. Trigger the workspace globally from anywhere in your terminal window:
+```bash
+sudo MR-ZDD
+```
+
+---
+
+## 🕹️ C2 CONSOLE TELEMETRY PREVIEW
+
+When the backend network operational handler goes live, the interactive input routing environment renders as follows:
+
+zdd-c2(main)☠# sessions
+
+◢◤ ACTIVE TERMINAL SESSIONS MATRIX ◢◤
+ID    Origin Network IP      Status         
+-----------------------------------------------
+1     192.168.1.42           Active  🟢       
+2     10.0.0.8               Zombie/Timeout 🔴
+
+[i] Target Node Interaction: 'interact <id>'
+
+zdd-c2(main)☠# interact 1
+[+] Hooked to Session - Command 'background' drops to menu
+
+zdd-core(session-1)# whoami
+[⚡] INTERCEPTED TELEMETRY (Session-1):
+nt authority\system 💀
