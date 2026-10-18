@@ -18,7 +18,8 @@ __________________________________
 > **[!] SEC-OPS FIREWALL ALERT: READ BEFORE DEPLOYING ANY BINARY INTERFACE LAYER.**
 
 ▟████████████████████████████████████████████████████████████▙
-▕  ⚠️  CRITICAL OPERATIONAL SECURITY WARNING & DISCLAIMER  ⚠️  ▏
+
+▕ ⚠️  CRITICAL OPERATIONAL SECURITY WARNING & DISCLAIMER  ⚠️  ▏
 ▜████████████████████████████████████████████████████████████▛
 
 ### 🚨 LEGAL & OPERATIONAL WARNING
