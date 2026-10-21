@@ -57,17 +57,26 @@ This framework (`MR-ZDD`) is engineered exclusively for **Authorized Security Au
 ### 1. 📦 Prerequisites
 Ensure your operational environment houses the required toolsets before firing up the framework:
 ```bash
-sudo apt update && sudo apt install xxd cloudflared python3 iconv -y
+# Add Cloudflare's package signing key
+sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflare.com/cloudflare-main.gpg | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
+
+# Add the repository to your APT sources
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/cloudflared any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
+
+# Update your package list and install
+sudo apt-get update && sudo apt-get install cloudflared
+
 ```
 
 ### 2. 🧱 Direct Install via .DEB Package
 You can download the pre-compiled standalone **`.deb`** application bundle directly from the **Releases** section of this repository and deploy it using the following commands:
 ```bash
 # Install your downloaded package
-sudo dpkg -i mr-zdd-pkg.deb
+sudo dpkg -i MR_ZDD.deb
 
-IF ERROR
-sudo apt install ./mr-zdd-pkg.deb
+IF ERROR Try This
+sudo apt install ./MR_ZDD.deb
 
 # Fix missing dependencies if any errors pop up
 sudo apt-get install -f -y
@@ -76,7 +85,7 @@ sudo apt-get install -f -y
 ### 3. ⚡ Direct Execution
 Once the installation is complete, there is no need to navigate to the script's directory or invoke standard interpreters. Trigger the workspace globally from anywhere in your terminal window:
 ```bash
-sudo MR-ZDD
+MR_ZDD
 ```
 
 ---
